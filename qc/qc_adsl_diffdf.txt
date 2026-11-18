@@ -1,0 +1,21 @@
+Differences found between the objects!
+
+Summary of BASE and COMPARE
+  ====================================
+    PROPERTY      BASE        COMP    
+  ------------------------------------
+      Name        prod      qc_adsl   
+     Class     data.frame  data.frame 
+    Rows(#)       306         306     
+   Columns(#)      9           9      
+  ------------------------------------
+
+
+There are columns in BASE and COMPARE with differing attributes !!
+  ===============================================================
+   VARIABLE  ATTR_NAME          VALUES.BASE          VALUES.COMP 
+  ---------------------------------------------------------------
+   USUBJID     label    "Unique Subject Identifier"     NULL     
+  ---------------------------------------------------------------
+
+
