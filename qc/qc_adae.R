@@ -61,6 +61,11 @@ qc_adae <- qc[, qc_vars]
 # ---- Compare with production ----------------------------------------
 prod <- as.data.frame(readRDS("outputs/datasets/adae.rds"))[, qc_vars]
 
+# Compare values only: variable labels are metadata, applied and
+# verified separately by xportr (Step 5). See qc/qc_log.md, QC-001.
+prod    <- haven::zap_label(prod)
+qc_adae <- haven::zap_label(qc_adae)
+
 res <- diffdf(base = prod, compare = qc_adae, keys = c("USUBJID", "AESEQ"),
               file = "qc/qc_adae_diffdf.txt")
 print(res)

@@ -57,6 +57,11 @@ saveRDS(qc_adsl, "qc/qc_adsl.rds")
 # ---- Compare with production ----------------------------------------
 prod <- as.data.frame(readRDS("outputs/datasets/adsl.rds"))[, qc_vars]
 
+# Compare values only: variable labels are metadata, applied and
+# verified separately by xportr (Step 5). See qc/qc_log.md, QC-001.
+prod    <- haven::zap_label(prod)
+qc_adsl <- haven::zap_label(qc_adsl)
+
 res <- diffdf(base = prod, compare = qc_adsl, keys = "USUBJID",
               file = "qc/qc_adsl_diffdf.txt")
 print(res)
