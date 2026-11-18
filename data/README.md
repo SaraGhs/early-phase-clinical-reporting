@@ -2,7 +2,7 @@
 
 This project uses **public example data** from the R package `pharmaversesdtm`
 (version 1.5.0), which contains SDTM datasets from the CDISC pilot study
-(STUDYID: "CDISCPILOT01"), a clinical trial of xanomeline transdermal patch
+(STUDYID: CDISCPILOT01), a clinical trial of xanomeline transdermal patch
 vs placebo.
 
 - No real patient data and no confidential data are used.
@@ -14,8 +14,8 @@ vs placebo.
 | DM     | Demographics       | 306    | 306      |
 | EX     | Exposure           | 591    | 254      |
 | AE     | Adverse events     | 1,191  | 225      |
-| LB     | Laboratory results | 59,580 | <<LB>>   |
-| VS     | Vital signs        | 29,643 | <<VS>>   |
+| LB     | Laboratory results | 59,580 | 254      |
+| VS     | Vital signs        | 29,643 | 254      |
 
 ## Key observations from exploration (`programs/00_explore.R`)
 
