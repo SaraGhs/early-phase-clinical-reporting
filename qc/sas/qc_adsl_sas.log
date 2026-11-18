@@ -1,0 +1,403 @@
+NOTE: PROCEDURE PRINTTO used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              281.96k
+      OS Memory           21664.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        61  Switch Count  0
+      Page Faults                       0
+      Page Reclaims                     17
+      Page Swaps                        0
+      Voluntary Context Switches        7
+      Involuntary Context Switches      0
+      Block Input Operations            0
+      Block Output Operations           0
+      
+
+80         ods html5 (id=evidence) path="&path" file="qc_adsl_sas_results.html";
+NOTE: Writing HTML5(EVIDENCE) Body file: qc_adsl_sas_results.html
+81         
+82         libname xdm   xport "&path/dm.xpt";
+NOTE: Libref XDM was successfully assigned as follows: 
+      Engine:        XPORT 
+      Physical Name: /home/u64652320/ecr/dm.xpt
+83         libname xex   xport "&path/ex.xpt";
+NOTE: Libref XEX was successfully assigned as follows: 
+      Engine:        XPORT 
+      Physical Name: /home/u64652320/ecr/ex.xpt
+84         libname xadsl xport "&path/adsl.xpt";
+NOTE: Libref XADSL was successfully assigned as follows: 
+      Engine:        XPORT 
+      Physical Name: /home/u64652320/ecr/adsl.xpt
+85         
+86         proc copy in=xdm   out=work; run;
+
+NOTE: Input library XDM is sequential.
+NOTE: Copying XDM.DM to WORK.DM (memtype=DATA).
+NOTE: BUFSIZE is not cloned when copying across different engines. System Option for BUFSIZE was used.
+NOTE: There were 306 observations read from the data set XDM.DM.
+NOTE: The data set WORK.DM has 306 observations and 28 variables.
+NOTE: PROCEDURE COPY used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+2                                                          The SAS System                   Wednesday, November 18, 2026 06:02:39 PM
+
+      memory              866.21k
+      OS Memory           26016.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        62  Switch Count  2
+      Page Faults                       0
+      Page Reclaims                     136
+      Page Swaps                        0
+      Voluntary Context Switches        14
+      Involuntary Context Switches      0
+      Block Input Operations            0
+      Block Output Operations           272
+      
+
+87         proc copy in=xex   out=work; run;
+
+NOTE: Input library XEX is sequential.
+NOTE: Copying XEX.EX to WORK.EX (memtype=DATA).
+NOTE: BUFSIZE is not cloned when copying across different engines. System Option for BUFSIZE was used.
+NOTE: There were 591 observations read from the data set XEX.EX.
+NOTE: The data set WORK.EX has 591 observations and 17 variables.
+NOTE: PROCEDURE COPY used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              825.28k
+      OS Memory           26016.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        63  Switch Count  2
+      Page Faults                       0
+      Page Reclaims                     99
+      Page Swaps                        0
+      Voluntary Context Switches        14
+      Involuntary Context Switches      0
+      Block Input Operations            0
+      Block Output Operations           272
+      
+
+88         proc copy in=xadsl out=work; run;
+
+NOTE: Input library XADSL is sequential.
+NOTE: Copying XADSL.ADSL to WORK.ADSL (memtype=DATA).
+NOTE: BUFSIZE is not cloned when copying across different engines. System Option for BUFSIZE was used.
+NOTE: There were 306 observations read from the data set XADSL.ADSL.
+NOTE: The data set WORK.ADSL has 306 observations and 21 variables.
+NOTE: PROCEDURE COPY used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              964.31k
+      OS Memory           26016.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        64  Switch Count  2
+      Page Faults                       0
+      Page Reclaims                     86
+      Page Swaps                        0
+      Voluntary Context Switches        15
+      Involuntary Context Switches      0
+      Block Input Operations            0
+3                                                          The SAS System                   Wednesday, November 18, 2026 06:02:39 PM
+
+      Block Output Operations           528
+      
+88       !                                     /* production ADSL -> WORK.ADSL */
+
+89         
+90         /* Valid doses: EXDOSE > 0, or EXDOSE = 0 and EXTRT contains PLACEBO */
+91         data ex_v;
+92           set ex;
+93           if EXDOSE > 0 or (EXDOSE = 0 and index(upcase(EXTRT), 'PLACEBO') > 0);
+94           if length(strip(EXSTDTC)) >= 10 then stdt = input(substr(EXSTDTC, 1, 10), yymmdd10.);
+95           if length(strip(EXENDTC)) >= 10 then endt = input(substr(EXENDTC, 1, 10), yymmdd10.);
+96           format stdt endt date9.;
+97         run;
+
+NOTE: There were 591 observations read from the data set WORK.EX.
+NOTE: The data set WORK.EX_V has 591 observations and 19 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              837.81k
+      OS Memory           26016.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        65  Switch Count  2
+      Page Faults                       0
+      Page Reclaims                     120
+      Page Swaps                        0
+      Voluntary Context Switches        10
+      Involuntary Context Switches      0
+      Block Input Operations            0
+      Block Output Operations           264
+      
+
+98         
+99         /* First and last valid dose date per subject */
+100        proc sql;
+101          create table trt as
+102          select USUBJID,
+103                 min(stdt) as TRTSDT format=date9.,
+104                 max(endt) as TRTEDT format=date9.
+105          from ex_v
+106          group by USUBJID
+107          order by USUBJID;
+NOTE: Table WORK.TRT created, with 254 rows and 3 columns.
+
+108        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.01 seconds
+      system cpu time     0.00 seconds
+      memory              5490.37k
+      OS Memory           30880.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        66  Switch Count  2
+      Page Faults                       0
+      Page Reclaims                     166
+      Page Swaps                        0
+      Voluntary Context Switches        10
+4                                                          The SAS System                   Wednesday, November 18, 2026 06:02:39 PM
+
+      Involuntary Context Switches      0
+      Block Input Operations            0
+      Block Output Operations           272
+      
+
+109        
+110        proc sort data=dm; by USUBJID; run;
+
+NOTE: There were 306 observations read from the data set WORK.DM.
+NOTE: The data set WORK.DM has 306 observations and 28 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              824.59k
+      OS Memory           26272.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        67  Switch Count  2
+      Page Faults                       0
+      Page Reclaims                     93
+      Page Swaps                        0
+      Voluntary Context Switches        10
+      Involuntary Context Switches      0
+      Block Input Operations            0
+      Block Output Operations           272
+      
+
+111        
+112        /* Subject-level derivations, from the spec text */
+113        data qc_adsl;
+114          merge dm(in=a keep=USUBJID ARM ACTARM AGE) trt;
+115          by USUBJID;
+116          if a;
+117          length TRT01P TRT01A $40 AGEGR1 $10 ITTFL SAFFL $1;
+118          if ARM    ne 'Screen Failure' then TRT01P = ARM;
+119          if ACTARM ne 'Screen Failure' then TRT01A = ACTARM;
+120          if n(TRTSDT, TRTEDT) = 2 then TRTDURD = TRTEDT - TRTSDT + 1;
+121          if      AGE < 65  then AGEGR1 = '<65';
+122          else if AGE <= 80 then AGEGR1 = '65-80';
+123          else                   AGEGR1 = '>80';
+124          ITTFL = ifc(ARM ne 'Screen Failure', 'Y', 'N');
+125          SAFFL = ifc(not missing(TRTSDT), 'Y', 'N');
+126          keep USUBJID TRT01P TRT01A TRTSDT TRTEDT TRTDURD AGEGR1 ITTFL SAFFL;
+127        run;
+
+NOTE: There were 306 observations read from the data set WORK.DM.
+NOTE: There were 254 observations read from the data set WORK.TRT.
+NOTE: The data set WORK.QC_ADSL has 306 observations and 9 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              1275.78k
+      OS Memory           26532.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        68  Switch Count  2
+      Page Faults                       0
+      Page Reclaims                     177
+5                                                          The SAS System                   Wednesday, November 18, 2026 06:02:39 PM
+
+      Page Swaps                        0
+      Voluntary Context Switches        10
+      Involuntary Context Switches      1
+      Block Input Operations            0
+      Block Output Operations           264
+      
+
+128        
+129        /* Counts */
+130        title "SAS QC: populations";
+131        proc freq data=qc_adsl; tables ITTFL*SAFFL / list missing; run;
+
+NOTE: There were 306 observations read from the data set WORK.QC_ADSL.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.02 seconds
+      user cpu time       0.02 seconds
+      system cpu time     0.00 seconds
+      memory              2998.31k
+      OS Memory           28584.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        69  Switch Count  8
+      Page Faults                       0
+      Page Reclaims                     681
+      Page Swaps                        0
+      Voluntary Context Switches        40
+      Involuntary Context Switches      4
+      Block Input Operations            0
+      Block Output Operations           1064
+      
+
+132        
+133        title "SAS QC: actual treatment, safety population";
+134        proc freq data=qc_adsl; where SAFFL = 'Y'; tables TRT01A / missing; run;
+
+NOTE: There were 254 observations read from the data set WORK.QC_ADSL.
+      WHERE SAFFL='Y';
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.01 seconds
+      user cpu time       0.02 seconds
+      system cpu time     0.00 seconds
+      memory              938.96k
+      OS Memory           28064.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        70  Switch Count  3
+      Page Faults                       0
+      Page Reclaims                     161
+      Page Swaps                        0
+      Voluntary Context Switches        17
+      Involuntary Context Switches      1
+      Block Input Operations            0
+      Block Output Operations           264
+      
+
+135        
+136        title "SAS QC: age groups";
+137        proc freq data=qc_adsl; tables AGEGR1 / missing; run;
+
+NOTE: There were 306 observations read from the data set WORK.QC_ADSL.
+6                                                          The SAS System                   Wednesday, November 18, 2026 06:02:39 PM
+
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.01 seconds
+      user cpu time       0.02 seconds
+      system cpu time     0.00 seconds
+      memory              797.93k
+      OS Memory           28064.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        71  Switch Count  2
+      Page Faults                       0
+      Page Reclaims                     129
+      Page Swaps                        0
+      Voluntary Context Switches        14
+      Involuntary Context Switches      4
+      Block Input Operations            0
+      Block Output Operations           264
+      
+
+138        
+139        title "SAS QC: treatment duration (days)";
+140        proc means data=qc_adsl n nmiss min mean median max; var TRTDURD; run;
+
+NOTE: There were 306 observations read from the data set WORK.QC_ADSL.
+NOTE: PROCEDURE MEANS used (Total process time):
+      real time           0.02 seconds
+      user cpu time       0.02 seconds
+      system cpu time     0.01 seconds
+      memory              6959.37k
+      OS Memory           34240.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        72  Switch Count  1
+      Page Faults                       0
+      Page Reclaims                     1696
+      Page Swaps                        0
+      Voluntary Context Switches        19
+      Involuntary Context Switches      0
+      Block Input Operations            0
+      Block Output Operations           0
+      
+
+141        
+142        /* Value-level comparison with the R production ADSL */
+143        proc sort data=adsl
+144          out=prod(keep=USUBJID TRT01P TRT01A TRTSDT TRTEDT TRTDURD AGEGR1 ITTFL SAFFL);
+145          by USUBJID;
+146        run;
+
+NOTE: There were 306 observations read from the data set WORK.ADSL.
+NOTE: The data set WORK.PROD has 306 observations and 9 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              1770.46k
+      OS Memory           29100.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        73  Switch Count  2
+      Page Faults                       0
+      Page Reclaims                     144
+7                                                          The SAS System                   Wednesday, November 18, 2026 06:02:39 PM
+
+      Page Swaps                        0
+      Voluntary Context Switches        11
+      Involuntary Context Switches      0
+      Block Input Operations            0
+      Block Output Operations           272
+      
+
+147        proc sort data=qc_adsl; by USUBJID; run;
+
+NOTE: There were 306 observations read from the data set WORK.QC_ADSL.
+NOTE: The data set WORK.QC_ADSL has 306 observations and 9 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.00 seconds
+      user cpu time       0.00 seconds
+      system cpu time     0.00 seconds
+      memory              786.93k
+      OS Memory           28320.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        74  Switch Count  2
+      Page Faults                       0
+      Page Reclaims                     104
+      Page Swaps                        0
+      Voluntary Context Switches        11
+      Involuntary Context Switches      1
+      Block Input Operations            0
+      Block Output Operations           264
+      
+
+148        
+149        title "PROC COMPARE: R production ADSL (BASE) vs SAS QC ADSL (COMPARE)";
+150        proc compare base=prod compare=qc_adsl listall criterion=1e-8;
+151          id USUBJID;
+152        run;
+
+NOTE: There were 306 observations read from the data set WORK.PROD.
+NOTE: There were 306 observations read from the data set WORK.QC_ADSL.
+NOTE: PROCEDURE COMPARE used (Total process time):
+      real time           0.01 seconds
+      user cpu time       0.01 seconds
+      system cpu time     0.00 seconds
+      memory              1113.12k
+      OS Memory           28580.00k
+      Timestamp           11/18/2026 11:02:39 PM
+      Step Count                        75  Switch Count  0
+      Page Faults                       0
+      Page Reclaims                     145
+      Page Swaps                        0
+      Voluntary Context Switches        0
+      Involuntary Context Switches      1
+      Block Input Operations            0
+      Block Output Operations           40
+      
+
+153        title;
+154        ods html5 (id=evidence) close;
+155        proc printto; run;
+
