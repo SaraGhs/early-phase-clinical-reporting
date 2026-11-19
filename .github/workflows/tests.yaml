@@ -1,0 +1,40 @@
+# Runs the testthat suite on a clean Linux machine on every push,
+# using package versions from renv.lock.
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  testthat:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      RENV_PATHS_ROOT: /home/runner/.local/share/renv
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.4'
+
+      - name: Cache renv packages
+        uses: actions/cache@v4
+        with:
+          path: /home/runner/.local/share/renv
+          key: ${{ runner.os }}-renv-${{ hashFiles('renv.lock') }}
+          restore-keys: ${{ runner.os }}-renv-
+
+      - name: Restore test dependencies from renv.lock
+        run: |
+          Rscript -e 'renv::restore(packages = c("testthat", "rprojroot", "pharmaversesdtm"), prompt = FALSE)'
+
+      - name: Run testthat
+        run: |
+          Rscript -e 'testthat::test_dir("tests/testthat", stop_on_failure = TRUE)'
