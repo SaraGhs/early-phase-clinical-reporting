@@ -1,0 +1,702 @@
+Table 14.3.1 Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+Safety Population
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+                                                                       Placebo     Xanomeline Low Dose
+                                                                        (N=86)           (N=96)       
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+Total number of patients with at least one TEAE                       65 (75.6%)       84 (87.5%)     
+Overall total number of TEAEs                                            281               427        
+GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS                                                  
+  Total number of patients with at least one TEAE                     21 (24.4%)       51 (53.1%)     
+  Total number of TEAEs                                                   46               124        
+  APPLICATION SITE PRURITUS                                            6 (7.0%)        23 (24.0%)     
+  APPLICATION SITE ERYTHEMA                                            3 (3.5%)        13 (13.5%)     
+  APPLICATION SITE DERMATITIS                                          5 (5.8%)         9 (9.4%)      
+  APPLICATION SITE IRRITATION                                          3 (3.5%)         9 (9.4%)      
+  APPLICATION SITE VESICLES                                            1 (1.2%)         5 (5.2%)      
+  FATIGUE                                                              1 (1.2%)         5 (5.2%)      
+  OEDEMA PERIPHERAL                                                    2 (2.3%)         1 (1.0%)      
+  APPLICATION SITE SWELLING                                               0             1 (1.0%)      
+  APPLICATION SITE URTICARIA                                              0             2 (2.1%)      
+  CHILLS                                                               1 (1.2%)         1 (1.0%)      
+  MALAISE                                                                 0             1 (1.0%)      
+  PYREXIA                                                              2 (2.3%)         1 (1.0%)      
+  APPLICATION SITE PAIN                                                   0                 0         
+  APPLICATION SITE PERSPIRATION                                           0                 0         
+  APPLICATION SITE REACTION                                            1 (1.2%)             0         
+  ASTHENIA                                                             1 (1.2%)         1 (1.0%)      
+  CHEST DISCOMFORT                                                        0             1 (1.0%)      
+  CHEST PAIN                                                              0                 0         
+  OEDEMA                                                                  0             2 (2.1%)      
+  PAIN                                                                    0             1 (1.0%)      
+  APPLICATION SITE BLEEDING                                               0             1 (1.0%)      
+  APPLICATION SITE DESQUAMATION                                           0             1 (1.0%)      
+  APPLICATION SITE DISCHARGE                                              0                 0         
+  APPLICATION SITE DISCOLOURATION                                         0             1 (1.0%)      
+  APPLICATION SITE INDURATION                                          1 (1.2%)             0         
+  APPLICATION SITE WARMTH                                                 0             1 (1.0%)      
+  FEELING ABNORMAL                                                        0                 0         
+  FEELING COLD                                                            0                 0         
+  INFLAMMATION                                                            0             1 (1.0%)      
+  SECRETION DISCHARGE                                                     0             1 (1.0%)      
+  SUDDEN DEATH                                                            0             1 (1.0%)      
+  SWELLING                                                                0             1 (1.0%)      
+  ULCER                                                                   0             1 (1.0%)      
+SKIN AND SUBCUTANEOUS TISSUE DISORDERS                                                                
+  Total number of patients with at least one TEAE                     20 (23.3%)       39 (40.6%)     
+  Total number of TEAEs                                                   45               111        
+  PRURITUS                                                             8 (9.3%)        21 (21.9%)     
+  ERYTHEMA                                                             8 (9.3%)        14 (14.6%)     
+  RASH                                                                 5 (5.8%)        13 (13.5%)     
+  HYPERHIDROSIS                                                        2 (2.3%)         4 (4.2%)      
+  SKIN IRRITATION                                                      3 (3.5%)         6 (6.2%)      
+  BLISTER                                                                 0             5 (5.2%)      
+  RASH PRURITIC                                                           0             1 (1.0%)      
+  PRURITUS GENERALISED                                                    0             1 (1.0%)      
+  URTICARIA                                                               0             1 (1.0%)      
+  ACTINIC KERATOSIS                                                       0                 0         
+  ALOPECIA                                                             1 (1.2%)             0         
+  COLD SWEAT                                                           1 (1.2%)             0         
+  DERMATITIS CONTACT                                                      0             1 (1.0%)      
+  DRUG ERUPTION                                                        1 (1.2%)             0         
+  RASH ERYTHEMATOUS                                                       0             1 (1.0%)      
+  RASH MACULO-PAPULAR                                                     0                 0         
+  SKIN EXFOLIATION                                                        0             1 (1.0%)      
+  SKIN ODOUR ABNORMAL                                                     0                 0         
+  SKIN ULCER                                                           1 (1.2%)             0         
+NERVOUS SYSTEM DISORDERS                                                                              
+  Total number of patients with at least one TEAE                      8 (9.3%)        22 (22.9%)     
+  Total number of TEAEs                                                   11               42         
+  DIZZINESS                                                            2 (2.3%)         9 (9.4%)      
+  HEADACHE                                                             3 (3.5%)         3 (3.1%)      
+  SYNCOPE                                                                 0             5 (5.2%)      
+  SOMNOLENCE                                                           2 (2.3%)         3 (3.1%)      
+  TRANSIENT ISCHAEMIC ATTACK                                              0             2 (2.1%)      
+  BURNING SENSATION                                                       0                 0         
+  LETHARGY                                                                0             1 (1.0%)      
+  AMNESIA                                                                 0                 0         
+  BALANCE DISORDER                                                        0             1 (1.0%)      
+  COGNITIVE DISORDER                                                      0                 0         
+  COMPLEX PARTIAL SEIZURES                                                0             1 (1.0%)      
+  COORDINATION ABNORMAL                                                   0             1 (1.0%)      
+  HEMIANOPIA HOMONYMOUS                                                   0             1 (1.0%)      
+  HYPERSOMNIA                                                             0                 0         
+  PARAESTHESIA                                                            0                 0         
+  PARAESTHESIA ORAL                                                       0             1 (1.0%)      
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+
+A patient is counted once per SOC and once per preferred term.
+Source: ADAE, ADSL. Program: programs/t_ae_soc_pt.R
+\s\nTable 14.3.1 Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+Safety Population
+
+—————————————————————————————————————————————————————————————————————————————————————————————————————————
+                                                                      Xanomeline High Dose   All Patients
+                                                                             (N=72)            (N=254)   
+—————————————————————————————————————————————————————————————————————————————————————————————————————————
+Total number of patients with at least one TEAE                            68 (94.4%)        217 (85.4%) 
+Overall total number of TEAEs                                                 414                1122    
+GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS                                                     
+  Total number of patients with at least one TEAE                          36 (50.0%)        108 (42.5%) 
+  Total number of TEAEs                                                       118                288     
+  APPLICATION SITE PRURITUS                                                21 (29.2%)         50 (19.7%) 
+  APPLICATION SITE ERYTHEMA                                                14 (19.4%)         30 (11.8%) 
+  APPLICATION SITE DERMATITIS                                               7 (9.7%)          21 (8.3%)  
+  APPLICATION SITE IRRITATION                                              9 (12.5%)          21 (8.3%)  
+  APPLICATION SITE VESICLES                                                 5 (6.9%)          11 (4.3%)  
+  FATIGUE                                                                   5 (6.9%)          11 (4.3%)  
+  OEDEMA PERIPHERAL                                                         2 (2.8%)           5 (2.0%)  
+  APPLICATION SITE SWELLING                                                 2 (2.8%)           3 (1.2%)  
+  APPLICATION SITE URTICARIA                                                1 (1.4%)           3 (1.2%)  
+  CHILLS                                                                    1 (1.4%)           3 (1.2%)  
+  MALAISE                                                                   2 (2.8%)           3 (1.2%)  
+  PYREXIA                                                                      0               3 (1.2%)  
+  APPLICATION SITE PAIN                                                     2 (2.8%)           2 (0.8%)  
+  APPLICATION SITE PERSPIRATION                                             2 (2.8%)           2 (0.8%)  
+  APPLICATION SITE REACTION                                                 1 (1.4%)           2 (0.8%)  
+  ASTHENIA                                                                     0               2 (0.8%)  
+  CHEST DISCOMFORT                                                          1 (1.4%)           2 (0.8%)  
+  CHEST PAIN                                                                2 (2.8%)           2 (0.8%)  
+  OEDEMA                                                                       0               2 (0.8%)  
+  PAIN                                                                      1 (1.4%)           2 (0.8%)  
+  APPLICATION SITE BLEEDING                                                    0               1 (0.4%)  
+  APPLICATION SITE DESQUAMATION                                                0               1 (0.4%)  
+  APPLICATION SITE DISCHARGE                                                1 (1.4%)           1 (0.4%)  
+  APPLICATION SITE DISCOLOURATION                                              0               1 (0.4%)  
+  APPLICATION SITE INDURATION                                                  0               1 (0.4%)  
+  APPLICATION SITE WARMTH                                                      0               1 (0.4%)  
+  FEELING ABNORMAL                                                          1 (1.4%)           1 (0.4%)  
+  FEELING COLD                                                              1 (1.4%)           1 (0.4%)  
+  INFLAMMATION                                                                 0               1 (0.4%)  
+  SECRETION DISCHARGE                                                          0               1 (0.4%)  
+  SUDDEN DEATH                                                                 0               1 (0.4%)  
+  SWELLING                                                                     0               1 (0.4%)  
+  ULCER                                                                        0               1 (0.4%)  
+SKIN AND SUBCUTANEOUS TISSUE DISORDERS                                                                   
+  Total number of patients with at least one TEAE                          39 (54.2%)         98 (38.6%) 
+  Total number of TEAEs                                                       100                256     
+  PRURITUS                                                                 25 (34.7%)         54 (21.3%) 
+  ERYTHEMA                                                                 14 (19.4%)         36 (14.2%) 
+  RASH                                                                     8 (11.1%)          26 (10.2%) 
+  HYPERHIDROSIS                                                            8 (11.1%)          14 (5.5%)  
+  SKIN IRRITATION                                                           5 (6.9%)          14 (5.5%)  
+  BLISTER                                                                   1 (1.4%)           6 (2.4%)  
+  RASH PRURITIC                                                             2 (2.8%)           3 (1.2%)  
+  PRURITUS GENERALISED                                                      1 (1.4%)           2 (0.8%)  
+  URTICARIA                                                                 1 (1.4%)           2 (0.8%)  
+  ACTINIC KERATOSIS                                                         1 (1.4%)           1 (0.4%)  
+  ALOPECIA                                                                     0               1 (0.4%)  
+  COLD SWEAT                                                                   0               1 (0.4%)  
+  DERMATITIS CONTACT                                                           0               1 (0.4%)  
+  DRUG ERUPTION                                                                0               1 (0.4%)  
+  RASH ERYTHEMATOUS                                                            0               1 (0.4%)  
+  RASH MACULO-PAPULAR                                                       1 (1.4%)           1 (0.4%)  
+  SKIN EXFOLIATION                                                             0               1 (0.4%)  
+  SKIN ODOUR ABNORMAL                                                       1 (1.4%)           1 (0.4%)  
+  SKIN ULCER                                                                   0               1 (0.4%)  
+NERVOUS SYSTEM DISORDERS                                                                                 
+  Total number of patients with at least one TEAE                          23 (31.9%)         53 (20.9%) 
+  Total number of TEAEs                                                        39                 92     
+  DIZZINESS                                                                10 (13.9%)         21 (8.3%)  
+  HEADACHE                                                                  5 (6.9%)          11 (4.3%)  
+  SYNCOPE                                                                   2 (2.8%)           7 (2.8%)  
+  SOMNOLENCE                                                                1 (1.4%)           6 (2.4%)  
+  TRANSIENT ISCHAEMIC ATTACK                                                1 (1.4%)           3 (1.2%)  
+  BURNING SENSATION                                                         2 (2.8%)           2 (0.8%)  
+  LETHARGY                                                                  1 (1.4%)           2 (0.8%)  
+  AMNESIA                                                                   1 (1.4%)           1 (0.4%)  
+  BALANCE DISORDER                                                             0               1 (0.4%)  
+  COGNITIVE DISORDER                                                        1 (1.4%)           1 (0.4%)  
+  COMPLEX PARTIAL SEIZURES                                                     0               1 (0.4%)  
+  COORDINATION ABNORMAL                                                        0               1 (0.4%)  
+  HEMIANOPIA HOMONYMOUS                                                        0               1 (0.4%)  
+  HYPERSOMNIA                                                               1 (1.4%)           1 (0.4%)  
+  PARAESTHESIA                                                              1 (1.4%)           1 (0.4%)  
+  PARAESTHESIA ORAL                                                            0               1 (0.4%)  
+—————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+A patient is counted once per SOC and once per preferred term.
+Source: ADAE, ADSL. Program: programs/t_ae_soc_pt.R
+\s\nTable 14.3.1 Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+Safety Population
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+                                                                       Placebo     Xanomeline Low Dose
+                                                                        (N=86)           (N=96)       
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+NERVOUS SYSTEM DISORDERS                                                                              
+  Total number of patients with at least one TEAE                      8 (9.3%)        22 (22.9%)     
+  Total number of TEAEs                                                   11               42         
+  PARKINSON'S DISEASE                                                  1 (1.2%)             0         
+  PAROSMIA                                                                0                 0         
+  PARTIAL SEIZURES WITH SECONDARY GENERALISATION                          0                 0         
+  PSYCHOMOTOR HYPERACTIVITY                                            1 (1.2%)             0         
+  STUPOR                                                                  0             1 (1.0%)      
+  SYNCOPE VASOVAGAL                                                       0                 0         
+GASTROINTESTINAL DISORDERS                                                                            
+  Total number of patients with at least one TEAE                     17 (19.8%)       15 (15.6%)     
+  Total number of TEAEs                                                   26               24         
+  DIARRHOEA                                                           9 (10.5%)         5 (5.2%)      
+  VOMITING                                                             3 (3.5%)         4 (4.2%)      
+  NAUSEA                                                               3 (3.5%)         3 (3.1%)      
+  ABDOMINAL PAIN                                                       1 (1.2%)         3 (3.1%)      
+  SALIVARY HYPERSECRETION                                                 0                 0         
+  DYSPEPSIA                                                            1 (1.2%)         1 (1.0%)      
+  ABDOMINAL DISCOMFORT                                                    0                 0         
+  CONSTIPATION                                                         1 (1.2%)             0         
+  DYSPHAGIA                                                               0             1 (1.0%)      
+  FLATULENCE                                                           1 (1.2%)             0         
+  GASTROINTESTINAL HAEMORRHAGE                                            0                 0         
+  GASTROOESOPHAGEAL REFLUX DISEASE                                     1 (1.2%)             0         
+  GLOSSITIS                                                            1 (1.2%)             0         
+  HIATUS HERNIA                                                        1 (1.2%)             0         
+  RECTAL HAEMORRHAGE                                                      0             1 (1.0%)      
+  STOMACH DISCOMFORT                                                      0                 0         
+CARDIAC DISORDERS                                                                                     
+  Total number of patients with at least one TEAE                     12 (14.0%)       14 (14.6%)     
+  Total number of TEAEs                                                   26               32         
+  SINUS BRADYCARDIA                                                    2 (2.3%)         7 (7.3%)      
+  MYOCARDIAL INFARCTION                                                4 (4.7%)         2 (2.1%)      
+  ATRIAL FIBRILLATION                                                  1 (1.2%)         2 (2.1%)      
+  SUPRAVENTRICULAR EXTRASYSTOLES                                       1 (1.2%)         1 (1.0%)      
+  VENTRICULAR EXTRASYSTOLES                                               0             2 (2.1%)      
+  ATRIAL FLUTTER                                                          0             1 (1.0%)      
+  ATRIOVENTRICULAR BLOCK FIRST DEGREE                                  1 (1.2%)         1 (1.0%)      
+  BUNDLE BRANCH BLOCK RIGHT                                            1 (1.2%)         1 (1.0%)      
+  PALPITATIONS                                                            0             2 (2.1%)      
+  ATRIAL HYPERTROPHY                                                   1 (1.2%)             0         
+  ATRIOVENTRICULAR BLOCK SECOND DEGREE                                 1 (1.2%)             0         
+  BRADYCARDIA                                                          1 (1.2%)             0         
+  BUNDLE BRANCH BLOCK LEFT                                             1 (1.2%)             0         
+  CARDIAC DISORDER                                                        0                 0         
+  CARDIAC FAILURE CONGESTIVE                                           1 (1.2%)             0         
+  SINUS ARRHYTHMIA                                                     1 (1.2%)             0         
+  SUPRAVENTRICULAR TACHYCARDIA                                            0             1 (1.0%)      
+  TACHYCARDIA                                                          1 (1.2%)             0         
+  VENTRICULAR HYPERTROPHY                                              1 (1.2%)             0         
+  WOLFF-PARKINSON-WHITE SYNDROME                                          0             1 (1.0%)      
+INFECTIONS AND INFESTATIONS                                                                           
+  Total number of patients with at least one TEAE                     16 (18.6%)        9 (9.4%)      
+  Total number of TEAEs                                                   35               16         
+  NASOPHARYNGITIS                                                      2 (2.3%)         4 (4.2%)      
+  UPPER RESPIRATORY TRACT INFECTION                                    6 (7.0%)         1 (1.0%)      
+  INFLUENZA                                                            1 (1.2%)         1 (1.0%)      
+  URINARY TRACT INFECTION                                              2 (2.3%)             0         
+  CYSTITIS                                                             1 (1.2%)             0         
+  EAR INFECTION                                                        2 (2.3%)             0         
+  BRONCHITIS                                                           1 (1.2%)             0         
+  CELLULITIS                                                              0             1 (1.0%)      
+  CERVICITIS                                                           1 (1.2%)             0         
+  GASTROENTERITIS VIRAL                                                1 (1.2%)             0         
+  HORDEOLUM                                                               0                 0         
+  LOCALISED INFECTION                                                  1 (1.2%)             0         
+  LOWER RESPIRATORY TRACT INFECTION                                       0                 0         
+  PNEUMONIA                                                               0             1 (1.0%)      
+  RHINITIS                                                                0                 0         
+  VAGINAL MYCOSIS                                                      1 (1.2%)             0         
+  VIRAL INFECTION                                                         0             1 (1.0%)      
+PSYCHIATRIC DISORDERS                                                                                 
+  Total number of patients with at least one TEAE                     10 (11.6%)       11 (11.5%)     
+  Total number of TEAEs                                                   12               15         
+  CONFUSIONAL STATE                                                    2 (2.3%)         3 (3.1%)      
+  AGITATION                                                            2 (2.3%)         3 (3.1%)      
+  INSOMNIA                                                             2 (2.3%)             0         
+  ANXIETY                                                                 0             3 (3.1%)      
+  DELUSION                                                             1 (1.2%)             0         
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+
+A patient is counted once per SOC and once per preferred term.
+Source: ADAE, ADSL. Program: programs/t_ae_soc_pt.R
+\s\nTable 14.3.1 Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+Safety Population
+
+—————————————————————————————————————————————————————————————————————————————————————————————————————————
+                                                                      Xanomeline High Dose   All Patients
+                                                                             (N=72)            (N=254)   
+—————————————————————————————————————————————————————————————————————————————————————————————————————————
+NERVOUS SYSTEM DISORDERS                                                                                 
+  Total number of patients with at least one TEAE                          23 (31.9%)         53 (20.9%) 
+  Total number of TEAEs                                                        39                 92     
+  PARKINSON'S DISEASE                                                          0               1 (0.4%)  
+  PAROSMIA                                                                  1 (1.4%)           1 (0.4%)  
+  PARTIAL SEIZURES WITH SECONDARY GENERALISATION                            1 (1.4%)           1 (0.4%)  
+  PSYCHOMOTOR HYPERACTIVITY                                                    0               1 (0.4%)  
+  STUPOR                                                                       0               1 (0.4%)  
+  SYNCOPE VASOVAGAL                                                         1 (1.4%)           1 (0.4%)  
+GASTROINTESTINAL DISORDERS                                                                               
+  Total number of patients with at least one TEAE                          19 (26.4%)         51 (20.1%) 
+  Total number of TEAEs                                                        34                 84     
+  DIARRHOEA                                                                 3 (4.2%)          17 (6.7%)  
+  VOMITING                                                                  6 (8.3%)          13 (5.1%)  
+  NAUSEA                                                                    6 (8.3%)          12 (4.7%)  
+  ABDOMINAL PAIN                                                            1 (1.4%)           5 (2.0%)  
+  SALIVARY HYPERSECRETION                                                   4 (5.6%)           4 (1.6%)  
+  DYSPEPSIA                                                                    0               2 (0.8%)  
+  ABDOMINAL DISCOMFORT                                                      1 (1.4%)           1 (0.4%)  
+  CONSTIPATION                                                                 0               1 (0.4%)  
+  DYSPHAGIA                                                                    0               1 (0.4%)  
+  FLATULENCE                                                                   0               1 (0.4%)  
+  GASTROINTESTINAL HAEMORRHAGE                                              1 (1.4%)           1 (0.4%)  
+  GASTROOESOPHAGEAL REFLUX DISEASE                                             0               1 (0.4%)  
+  GLOSSITIS                                                                    0               1 (0.4%)  
+  HIATUS HERNIA                                                                0               1 (0.4%)  
+  RECTAL HAEMORRHAGE                                                           0               1 (0.4%)  
+  STOMACH DISCOMFORT                                                        1 (1.4%)           1 (0.4%)  
+CARDIAC DISORDERS                                                                                        
+  Total number of patients with at least one TEAE                          14 (19.4%)         40 (15.7%) 
+  Total number of TEAEs                                                        28                 86     
+  SINUS BRADYCARDIA                                                        8 (11.1%)          17 (6.7%)  
+  MYOCARDIAL INFARCTION                                                     4 (5.6%)          10 (3.9%)  
+  ATRIAL FIBRILLATION                                                       2 (2.8%)           5 (2.0%)  
+  SUPRAVENTRICULAR EXTRASYSTOLES                                            1 (1.4%)           3 (1.2%)  
+  VENTRICULAR EXTRASYSTOLES                                                 1 (1.4%)           3 (1.2%)  
+  ATRIAL FLUTTER                                                            1 (1.4%)           2 (0.8%)  
+  ATRIOVENTRICULAR BLOCK FIRST DEGREE                                          0               2 (0.8%)  
+  BUNDLE BRANCH BLOCK RIGHT                                                    0               2 (0.8%)  
+  PALPITATIONS                                                                 0               2 (0.8%)  
+  ATRIAL HYPERTROPHY                                                           0               1 (0.4%)  
+  ATRIOVENTRICULAR BLOCK SECOND DEGREE                                         0               1 (0.4%)  
+  BRADYCARDIA                                                                  0               1 (0.4%)  
+  BUNDLE BRANCH BLOCK LEFT                                                     0               1 (0.4%)  
+  CARDIAC DISORDER                                                          1 (1.4%)           1 (0.4%)  
+  CARDIAC FAILURE CONGESTIVE                                                   0               1 (0.4%)  
+  SINUS ARRHYTHMIA                                                             0               1 (0.4%)  
+  SUPRAVENTRICULAR TACHYCARDIA                                                 0               1 (0.4%)  
+  TACHYCARDIA                                                                  0               1 (0.4%)  
+  VENTRICULAR HYPERTROPHY                                                      0               1 (0.4%)  
+  WOLFF-PARKINSON-WHITE SYNDROME                                               0               1 (0.4%)  
+INFECTIONS AND INFESTATIONS                                                                              
+  Total number of patients with at least one TEAE                          13 (18.1%)         38 (15.0%) 
+  Total number of TEAEs                                                        20                 71     
+  NASOPHARYNGITIS                                                           6 (8.3%)          12 (4.7%)  
+  UPPER RESPIRATORY TRACT INFECTION                                         3 (4.2%)          10 (3.9%)  
+  INFLUENZA                                                                 1 (1.4%)           3 (1.2%)  
+  URINARY TRACT INFECTION                                                   1 (1.4%)           3 (1.2%)  
+  CYSTITIS                                                                  1 (1.4%)           2 (0.8%)  
+  EAR INFECTION                                                                0               2 (0.8%)  
+  BRONCHITIS                                                                   0               1 (0.4%)  
+  CELLULITIS                                                                   0               1 (0.4%)  
+  CERVICITIS                                                                   0               1 (0.4%)  
+  GASTROENTERITIS VIRAL                                                        0               1 (0.4%)  
+  HORDEOLUM                                                                 1 (1.4%)           1 (0.4%)  
+  LOCALISED INFECTION                                                          0               1 (0.4%)  
+  LOWER RESPIRATORY TRACT INFECTION                                         1 (1.4%)           1 (0.4%)  
+  PNEUMONIA                                                                    0               1 (0.4%)  
+  RHINITIS                                                                  1 (1.4%)           1 (0.4%)  
+  VAGINAL MYCOSIS                                                              0               1 (0.4%)  
+  VIRAL INFECTION                                                              0               1 (0.4%)  
+PSYCHIATRIC DISORDERS                                                                                    
+  Total number of patients with at least one TEAE                           7 (9.7%)          28 (11.0%) 
+  Total number of TEAEs                                                        10                 37     
+  CONFUSIONAL STATE                                                         1 (1.4%)           6 (2.4%)  
+  AGITATION                                                                    0               5 (2.0%)  
+  INSOMNIA                                                                  2 (2.8%)           4 (1.6%)  
+  ANXIETY                                                                      0               3 (1.2%)  
+  DELUSION                                                                  1 (1.4%)           2 (0.8%)  
+—————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+A patient is counted once per SOC and once per preferred term.
+Source: ADAE, ADSL. Program: programs/t_ae_soc_pt.R
+\s\nTable 14.3.1 Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+Safety Population
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+                                                                       Placebo     Xanomeline Low Dose
+                                                                        (N=86)           (N=96)       
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+PSYCHIATRIC DISORDERS                                                                                 
+  Total number of patients with at least one TEAE                     10 (11.6%)       11 (11.5%)     
+  Total number of TEAEs                                                   12               15         
+  IRRITABILITY                                                         1 (1.2%)         1 (1.0%)      
+  COMPLETED SUICIDE                                                    1 (1.2%)             0         
+  DELIRIUM                                                                0                 0         
+  DEPRESSED MOOD                                                          0             1 (1.0%)      
+  DISORIENTATION                                                       1 (1.2%)             0         
+  HALLUCINATION                                                           0                 0         
+  HALLUCINATION, VISUAL                                                   0                 0         
+  LIBIDO DECREASED                                                        0                 0         
+  LISTLESS                                                                0                 0         
+  NIGHTMARE                                                               0                 0         
+  RESTLESSNESS                                                            0             1 (1.0%)      
+RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS                                                       
+  Total number of patients with at least one TEAE                      8 (9.3%)         9 (9.4%)      
+  Total number of TEAEs                                                   12               14         
+  COUGH                                                                1 (1.2%)         5 (5.2%)      
+  NASAL CONGESTION                                                     3 (3.5%)         1 (1.0%)      
+  DYSPNOEA                                                             1 (1.2%)         1 (1.0%)      
+  EPISTAXIS                                                               0             1 (1.0%)      
+  PHARYNGOLARYNGEAL PAIN                                                  0             1 (1.0%)      
+  RHINORRHOEA                                                             0             1 (1.0%)      
+  ALLERGIC GRANULOMATOUS ANGIITIS                                         0                 0         
+  DYSPHONIA                                                               0             1 (1.0%)      
+  EMPHYSEMA                                                            1 (1.2%)             0         
+  HAEMOPTYSIS                                                          1 (1.2%)             0         
+  PHARYNGEAL ERYTHEMA                                                     0                 0         
+  POSTNASAL DRIP                                                       1 (1.2%)             0         
+  PRODUCTIVE COUGH                                                        0                 0         
+  RALES                                                                1 (1.2%)             0         
+  RESPIRATORY TRACT CONGESTION                                            0                 0         
+INVESTIGATIONS                                                                                        
+  Total number of patients with at least one TEAE                     10 (11.6%)        7 (7.3%)      
+  Total number of TEAEs                                                   19                9         
+  ELECTROCARDIOGRAM ST SEGMENT DEPRESSION                              4 (4.7%)         1 (1.0%)      
+  ELECTROCARDIOGRAM T WAVE INVERSION                                   2 (2.3%)         1 (1.0%)      
+  BLOOD GLUCOSE INCREASED                                                 0             1 (1.0%)      
+  ELECTROCARDIOGRAM T WAVE AMPLITUDE DECREASED                         1 (1.2%)         1 (1.0%)      
+  BIOPSY                                                                  0                 0         
+  BIOPSY PROSTATE                                                         0                 0         
+  BLOOD ALKALINE PHOSPHATASE INCREASED                                 1 (1.2%)             0         
+  BLOOD CHOLESTEROL INCREASED                                             0                 0         
+  BLOOD CREATINE PHOSPHOKINASE INCREASED                               1 (1.2%)             0         
+  BLOOD URINE PRESENT                                                  1 (1.2%)             0         
+  BODY TEMPERATURE INCREASED                                              0             1 (1.0%)      
+  CYSTOSCOPY                                                           1 (1.2%)             0         
+  HEART RATE INCREASED                                                 1 (1.2%)             0         
+  HEART RATE IRREGULAR                                                 1 (1.2%)             0         
+  NASAL MUCOSA BIOPSY                                                     0             1 (1.0%)      
+  WEIGHT DECREASED                                                        0             1 (1.0%)      
+MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS                                                       
+  Total number of patients with at least one TEAE                      4 (4.7%)         7 (7.3%)      
+  Total number of TEAEs                                                   6                10         
+  BACK PAIN                                                            1 (1.2%)         1 (1.0%)      
+  ARTHRALGIA                                                           1 (1.2%)         2 (2.1%)      
+  SHOULDER PAIN                                                        1 (1.2%)         2 (2.1%)      
+  MUSCLE SPASMS                                                           0             1 (1.0%)      
+  ARTHRITIS                                                               0                 0         
+  FLANK PAIN                                                              0                 0         
+  MUSCULAR WEAKNESS                                                       0             1 (1.0%)      
+  MYALGIA                                                                 0                 0         
+  PAIN IN EXTREMITY                                                    1 (1.2%)             0         
+INJURY, POISONING AND PROCEDURAL COMPLICATIONS                                                        
+  Total number of patients with at least one TEAE                      4 (4.7%)         5 (5.2%)      
+  Total number of TEAEs                                                   9                12         
+  CONTUSION                                                            1 (1.2%)         1 (1.0%)      
+  EXCORIATION                                                          2 (2.3%)         1 (1.0%)      
+  FALL                                                                 1 (1.2%)         2 (2.1%)      
+  HIP FRACTURE                                                         1 (1.2%)             0         
+  SKIN LACERATION                                                      1 (1.2%)         2 (2.1%)      
+  FACIAL BONES FRACTURE                                                   0                 0         
+  JOINT DISLOCATION                                                       0             1 (1.0%)      
+  WOUND                                                                   0             1 (1.0%)      
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+
+A patient is counted once per SOC and once per preferred term.
+Source: ADAE, ADSL. Program: programs/t_ae_soc_pt.R
+\s\nTable 14.3.1 Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+Safety Population
+
+—————————————————————————————————————————————————————————————————————————————————————————————————————————
+                                                                      Xanomeline High Dose   All Patients
+                                                                             (N=72)            (N=254)   
+—————————————————————————————————————————————————————————————————————————————————————————————————————————
+PSYCHIATRIC DISORDERS                                                                                    
+  Total number of patients with at least one TEAE                           7 (9.7%)          28 (11.0%) 
+  Total number of TEAEs                                                        10                 37     
+  IRRITABILITY                                                                 0               2 (0.8%)  
+  COMPLETED SUICIDE                                                            0               1 (0.4%)  
+  DELIRIUM                                                                  1 (1.4%)           1 (0.4%)  
+  DEPRESSED MOOD                                                               0               1 (0.4%)  
+  DISORIENTATION                                                               0               1 (0.4%)  
+  HALLUCINATION                                                             1 (1.4%)           1 (0.4%)  
+  HALLUCINATION, VISUAL                                                     1 (1.4%)           1 (0.4%)  
+  LIBIDO DECREASED                                                          1 (1.4%)           1 (0.4%)  
+  LISTLESS                                                                  1 (1.4%)           1 (0.4%)  
+  NIGHTMARE                                                                 1 (1.4%)           1 (0.4%)  
+  RESTLESSNESS                                                                 0               1 (0.4%)  
+RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS                                                          
+  Total number of patients with at least one TEAE                          10 (13.9%)         27 (10.6%) 
+  Total number of TEAEs                                                        22                 48     
+  COUGH                                                                     5 (6.9%)          11 (4.3%)  
+  NASAL CONGESTION                                                          3 (4.2%)           7 (2.8%)  
+  DYSPNOEA                                                                  1 (1.4%)           3 (1.2%)  
+  EPISTAXIS                                                                 2 (2.8%)           3 (1.2%)  
+  PHARYNGOLARYNGEAL PAIN                                                    1 (1.4%)           2 (0.8%)  
+  RHINORRHOEA                                                               1 (1.4%)           2 (0.8%)  
+  ALLERGIC GRANULOMATOUS ANGIITIS                                           1 (1.4%)           1 (0.4%)  
+  DYSPHONIA                                                                    0               1 (0.4%)  
+  EMPHYSEMA                                                                    0               1 (0.4%)  
+  HAEMOPTYSIS                                                                  0               1 (0.4%)  
+  PHARYNGEAL ERYTHEMA                                                       1 (1.4%)           1 (0.4%)  
+  POSTNASAL DRIP                                                               0               1 (0.4%)  
+  PRODUCTIVE COUGH                                                          1 (1.4%)           1 (0.4%)  
+  RALES                                                                        0               1 (0.4%)  
+  RESPIRATORY TRACT CONGESTION                                              1 (1.4%)           1 (0.4%)  
+INVESTIGATIONS                                                                                           
+  Total number of patients with at least one TEAE                           5 (6.9%)          22 (8.7%)  
+  Total number of TEAEs                                                        6                  34     
+  ELECTROCARDIOGRAM ST SEGMENT DEPRESSION                                      0               5 (2.0%)  
+  ELECTROCARDIOGRAM T WAVE INVERSION                                        1 (1.4%)           4 (1.6%)  
+  BLOOD GLUCOSE INCREASED                                                   1 (1.4%)           2 (0.8%)  
+  ELECTROCARDIOGRAM T WAVE AMPLITUDE DECREASED                                 0               2 (0.8%)  
+  BIOPSY                                                                    1 (1.4%)           1 (0.4%)  
+  BIOPSY PROSTATE                                                           1 (1.4%)           1 (0.4%)  
+  BLOOD ALKALINE PHOSPHATASE INCREASED                                         0               1 (0.4%)  
+  BLOOD CHOLESTEROL INCREASED                                               1 (1.4%)           1 (0.4%)  
+  BLOOD CREATINE PHOSPHOKINASE INCREASED                                       0               1 (0.4%)  
+  BLOOD URINE PRESENT                                                          0               1 (0.4%)  
+  BODY TEMPERATURE INCREASED                                                   0               1 (0.4%)  
+  CYSTOSCOPY                                                                   0               1 (0.4%)  
+  HEART RATE INCREASED                                                         0               1 (0.4%)  
+  HEART RATE IRREGULAR                                                         0               1 (0.4%)  
+  NASAL MUCOSA BIOPSY                                                          0               1 (0.4%)  
+  WEIGHT DECREASED                                                             0               1 (0.4%)  
+MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS                                                          
+  Total number of patients with at least one TEAE                           7 (9.7%)          18 (7.1%)  
+  Total number of TEAEs                                                        10                 26     
+  BACK PAIN                                                                 3 (4.2%)           5 (2.0%)  
+  ARTHRALGIA                                                                1 (1.4%)           4 (1.6%)  
+  SHOULDER PAIN                                                                0               3 (1.2%)  
+  MUSCLE SPASMS                                                             1 (1.4%)           2 (0.8%)  
+  ARTHRITIS                                                                 1 (1.4%)           1 (0.4%)  
+  FLANK PAIN                                                                1 (1.4%)           1 (0.4%)  
+  MUSCULAR WEAKNESS                                                            0               1 (0.4%)  
+  MYALGIA                                                                   1 (1.4%)           1 (0.4%)  
+  PAIN IN EXTREMITY                                                            0               1 (0.4%)  
+INJURY, POISONING AND PROCEDURAL COMPLICATIONS                                                           
+  Total number of patients with at least one TEAE                           5 (6.9%)          14 (5.5%)  
+  Total number of TEAEs                                                        8                  29     
+  CONTUSION                                                                 2 (2.8%)           4 (1.6%)  
+  EXCORIATION                                                               1 (1.4%)           4 (1.6%)  
+  FALL                                                                      1 (1.4%)           4 (1.6%)  
+  HIP FRACTURE                                                              2 (2.8%)           3 (1.2%)  
+  SKIN LACERATION                                                              0               3 (1.2%)  
+  FACIAL BONES FRACTURE                                                     1 (1.4%)           1 (0.4%)  
+  JOINT DISLOCATION                                                            0               1 (0.4%)  
+  WOUND                                                                        0               1 (0.4%)  
+—————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+A patient is counted once per SOC and once per preferred term.
+Source: ADAE, ADSL. Program: programs/t_ae_soc_pt.R
+\s\nTable 14.3.1 Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+Safety Population
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+                                                                       Placebo     Xanomeline Low Dose
+                                                                        (N=86)           (N=96)       
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+RENAL AND URINARY DISORDERS                                                                           
+  Total number of patients with at least one TEAE                      4 (4.7%)         3 (3.1%)      
+  Total number of TEAEs                                                   5                 3         
+  MICTURITION URGENCY                                                  1 (1.2%)         1 (1.0%)      
+  DYSURIA                                                              1 (1.2%)         1 (1.0%)      
+  NEPHROLITHIASIS                                                      1 (1.2%)             0         
+  CALCULUS URETHRAL                                                       0                 0         
+  INCONTINENCE                                                            0             1 (1.0%)      
+  POLLAKIURIA                                                          1 (1.2%)             0         
+METABOLISM AND NUTRITION DISORDERS                                                                    
+  Total number of patients with at least one TEAE                      6 (7.0%)         1 (1.0%)      
+  Total number of TEAEs                                                   8                 1         
+  DECREASED APPETITE                                                   1 (1.2%)             0         
+  FOOD CRAVING                                                         1 (1.2%)         1 (1.0%)      
+  INCREASED APPETITE                                                   1 (1.2%)             0         
+  DEHYDRATION                                                          1 (1.2%)             0         
+  DIABETES MELLITUS                                                    1 (1.2%)             0         
+  HYPONATRAEMIA                                                        1 (1.2%)             0         
+VASCULAR DISORDERS                                                                                    
+  Total number of patients with at least one TEAE                      3 (3.5%)         3 (3.1%)      
+  Total number of TEAEs                                                   7                 3         
+  HYPOTENSION                                                          2 (2.3%)         1 (1.0%)      
+  HYPERTENSION                                                         1 (1.2%)         1 (1.0%)      
+  HOT FLUSH                                                               0             1 (1.0%)      
+  ORTHOSTATIC HYPOTENSION                                              1 (1.2%)             0         
+  WOUND HAEMORRHAGE                                                       0                 0         
+EYE DISORDERS                                                                                         
+  Total number of patients with at least one TEAE                      2 (2.3%)         2 (2.1%)      
+  Total number of TEAEs                                                   5                 2         
+  VISION BLURRED                                                          0             1 (1.0%)      
+  CONJUNCTIVAL HAEMORRHAGE                                                0             1 (1.0%)      
+  CONJUNCTIVITIS                                                       1 (1.2%)             0         
+  EYE ALLERGY                                                          1 (1.2%)             0         
+  EYE PRURITUS                                                         1 (1.2%)             0         
+  EYE SWELLING                                                         1 (1.2%)             0         
+SURGICAL AND MEDICAL PROCEDURES                                                                       
+  Total number of patients with at least one TEAE                      2 (2.3%)         1 (1.0%)      
+  Total number of TEAEs                                                   2                 1         
+  CATARACT OPERATION                                                   1 (1.2%)         1 (1.0%)      
+  ACROCHORDON EXCISION                                                    0                 0         
+  EYE LASER SURGERY                                                    1 (1.2%)             0         
+  SKIN LESION EXCISION                                                    0                 0         
+EAR AND LABYRINTH DISORDERS                                                                           
+  Total number of patients with at least one TEAE                      1 (1.2%)         2 (2.1%)      
+  Total number of TEAEs                                                   2                 2         
+  VERTIGO                                                                 0             1 (1.0%)      
+  CERUMEN IMPACTION                                                       0             1 (1.0%)      
+  EAR PAIN                                                             1 (1.2%)             0         
+CONGENITAL, FAMILIAL AND GENETIC DISORDERS                                                            
+  Total number of patients with at least one TEAE                         0             1 (1.0%)      
+  Total number of TEAEs                                                   0                 1         
+  VENTRICULAR SEPTAL DEFECT                                               0             1 (1.0%)      
+NEOPLASMS BENIGN, MALIGNANT AND UNSPECIFIED (INCL CYSTS AND POLYPS)                                   
+  Total number of patients with at least one TEAE                         0             2 (2.1%)      
+  Total number of TEAEs                                                   0                 3         
+  COLON CANCER                                                            0             1 (1.0%)      
+  MALIGNANT FIBROUS HISTIOCYTOMA                                          0             1 (1.0%)      
+  PROSTATE CANCER                                                         0                 0         
+REPRODUCTIVE SYSTEM AND BREAST DISORDERS                                                              
+  Total number of patients with at least one TEAE                      2 (2.3%)             0         
+  Total number of TEAEs                                                   4                 0         
+  BENIGN PROSTATIC HYPERPLASIA                                         1 (1.2%)             0         
+  PELVIC PAIN                                                          1 (1.2%)             0         
+HEPATOBILIARY DISORDERS                                                                               
+  Total number of patients with at least one TEAE                      1 (1.2%)             0         
+  Total number of TEAEs                                                   1                 0         
+  HYPERBILIRUBINAEMIA                                                  1 (1.2%)             0         
+IMMUNE SYSTEM DISORDERS                                                                               
+  Total number of patients with at least one TEAE                         0             1 (1.0%)      
+  Total number of TEAEs                                                   0                 2         
+  HYPERSENSITIVITY                                                        0             1 (1.0%)      
+SOCIAL CIRCUMSTANCES                                                                                  
+  Total number of patients with at least one TEAE                         0                 0         
+  Total number of TEAEs                                                   0                 0         
+  ALCOHOL USE                                                             0                 0         
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+
+A patient is counted once per SOC and once per preferred term.
+Source: ADAE, ADSL. Program: programs/t_ae_soc_pt.R
+\s\nTable 14.3.1 Treatment-Emergent Adverse Events by System Organ Class and Preferred Term
+Safety Population
+
+—————————————————————————————————————————————————————————————————————————————————————————————————————————
+                                                                      Xanomeline High Dose   All Patients
+                                                                             (N=72)            (N=254)   
+—————————————————————————————————————————————————————————————————————————————————————————————————————————
+RENAL AND URINARY DISORDERS                                                                              
+  Total number of patients with at least one TEAE                           3 (4.2%)          10 (3.9%)  
+  Total number of TEAEs                                                        4                  12     
+  MICTURITION URGENCY                                                       1 (1.4%)           3 (1.2%)  
+  DYSURIA                                                                      0               2 (0.8%)  
+  NEPHROLITHIASIS                                                           1 (1.4%)           2 (0.8%)  
+  CALCULUS URETHRAL                                                         1 (1.4%)           1 (0.4%)  
+  INCONTINENCE                                                                 0               1 (0.4%)  
+  POLLAKIURIA                                                                  0               1 (0.4%)  
+METABOLISM AND NUTRITION DISORDERS                                                                       
+  Total number of patients with at least one TEAE                           2 (2.8%)           9 (3.5%)  
+  Total number of TEAEs                                                        4                  13     
+  DECREASED APPETITE                                                        1 (1.4%)           2 (0.8%)  
+  FOOD CRAVING                                                                 0               2 (0.8%)  
+  INCREASED APPETITE                                                        1 (1.4%)           2 (0.8%)  
+  DEHYDRATION                                                                  0               1 (0.4%)  
+  DIABETES MELLITUS                                                            0               1 (0.4%)  
+  HYPONATRAEMIA                                                                0               1 (0.4%)  
+VASCULAR DISORDERS                                                                                       
+  Total number of patients with at least one TEAE                           1 (1.4%)           7 (2.8%)  
+  Total number of TEAEs                                                        1                  11     
+  HYPOTENSION                                                                  0               3 (1.2%)  
+  HYPERTENSION                                                                 0               2 (0.8%)  
+  HOT FLUSH                                                                    0               1 (0.4%)  
+  ORTHOSTATIC HYPOTENSION                                                      0               1 (0.4%)  
+  WOUND HAEMORRHAGE                                                         1 (1.4%)           1 (0.4%)  
+EYE DISORDERS                                                                                            
+  Total number of patients with at least one TEAE                           1 (1.4%)           5 (2.0%)  
+  Total number of TEAEs                                                        2                  9      
+  VISION BLURRED                                                            1 (1.4%)           2 (0.8%)  
+  CONJUNCTIVAL HAEMORRHAGE                                                     0               1 (0.4%)  
+  CONJUNCTIVITIS                                                               0               1 (0.4%)  
+  EYE ALLERGY                                                                  0               1 (0.4%)  
+  EYE PRURITUS                                                                 0               1 (0.4%)  
+  EYE SWELLING                                                                 0               1 (0.4%)  
+SURGICAL AND MEDICAL PROCEDURES                                                                          
+  Total number of patients with at least one TEAE                           2 (2.8%)           5 (2.0%)  
+  Total number of TEAEs                                                        2                  5      
+  CATARACT OPERATION                                                           0               2 (0.8%)  
+  ACROCHORDON EXCISION                                                      1 (1.4%)           1 (0.4%)  
+  EYE LASER SURGERY                                                            0               1 (0.4%)  
+  SKIN LESION EXCISION                                                      1 (1.4%)           1 (0.4%)  
+EAR AND LABYRINTH DISORDERS                                                                              
+  Total number of patients with at least one TEAE                           1 (1.4%)           4 (1.6%)  
+  Total number of TEAEs                                                        1                  5      
+  VERTIGO                                                                   1 (1.4%)           2 (0.8%)  
+  CERUMEN IMPACTION                                                            0               1 (0.4%)  
+  EAR PAIN                                                                     0               1 (0.4%)  
+CONGENITAL, FAMILIAL AND GENETIC DISORDERS                                                               
+  Total number of patients with at least one TEAE                           2 (2.8%)           3 (1.2%)  
+  Total number of TEAEs                                                        2                  3      
+  VENTRICULAR SEPTAL DEFECT                                                 2 (2.8%)           3 (1.2%)  
+NEOPLASMS BENIGN, MALIGNANT AND UNSPECIFIED (INCL CYSTS AND POLYPS)                                      
+  Total number of patients with at least one TEAE                           1 (1.4%)           3 (1.2%)  
+  Total number of TEAEs                                                        1                  4      
+  COLON CANCER                                                                 0               1 (0.4%)  
+  MALIGNANT FIBROUS HISTIOCYTOMA                                               0               1 (0.4%)  
+  PROSTATE CANCER                                                           1 (1.4%)           1 (0.4%)  
+REPRODUCTIVE SYSTEM AND BREAST DISORDERS                                                                 
+  Total number of patients with at least one TEAE                           1 (1.4%)           3 (1.2%)  
+  Total number of TEAEs                                                        1                  5      
+  BENIGN PROSTATIC HYPERPLASIA                                              1 (1.4%)           2 (0.8%)  
+  PELVIC PAIN                                                                  0               1 (0.4%)  
+HEPATOBILIARY DISORDERS                                                                                  
+  Total number of patients with at least one TEAE                              0               1 (0.4%)  
+  Total number of TEAEs                                                        0                  1      
+  HYPERBILIRUBINAEMIA                                                          0               1 (0.4%)  
+IMMUNE SYSTEM DISORDERS                                                                                  
+  Total number of patients with at least one TEAE                              0               1 (0.4%)  
+  Total number of TEAEs                                                        0                  2      
+  HYPERSENSITIVITY                                                             0               1 (0.4%)  
+SOCIAL CIRCUMSTANCES                                                                                     
+  Total number of patients with at least one TEAE                           1 (1.4%)           1 (0.4%)  
+  Total number of TEAEs                                                        1                  1      
+  ALCOHOL USE                                                               1 (1.4%)           1 (0.4%)  
+—————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+A patient is counted once per SOC and once per preferred term.
+Source: ADAE, ADSL. Program: programs/t_ae_soc_pt.R

@@ -1,0 +1,58 @@
+Table 14.1.1 Demographic Characteristics
+Safety Population
+
+—————————————————————————————————————————————————————————————————————————————————————————————
+                                       Placebo     Xanomeline Low Dose   Xanomeline High Dose
+                                       (N=86)            (N=96)                 (N=72)       
+—————————————————————————————————————————————————————————————————————————————————————————————
+Age (years)                                                                                  
+  n                                      86                96                     72         
+  Mean (SD)                          75.2 (8.6)        76.0 (8.1)             73.8 (7.9)     
+  Median                                76.0              78.0                   75.5        
+  Min - Max                          52.0 - 89.0       51.0 - 88.0           56.0 - 88.0     
+Age group                                                                                    
+  n                                      86                96                     72         
+  <65                                14 (16.3%)         8 (8.3%)              11 (15.3%)     
+  65-80                              42 (48.8%)        53 (55.2%)             49 (68.1%)     
+  >80                                30 (34.9%)        35 (36.5%)             12 (16.7%)     
+Sex                                                                                          
+  n                                      86                96                     72         
+  F                                  53 (61.6%)        55 (57.3%)             35 (48.6%)     
+  M                                  33 (38.4%)        41 (42.7%)             37 (51.4%)     
+Race                                                                                         
+  n                                      86                96                     72         
+  AMERICAN INDIAN OR ALASKA NATIVE        0                 0                  1 (1.4%)      
+  BLACK OR AFRICAN AMERICAN           8 (9.3%)          6 (6.2%)              9 (12.5%)      
+  WHITE                              78 (90.7%)        90 (93.8%)             62 (86.1%)     
+—————————————————————————————————————————————————————————————————————————————————————————————
+
+Source: ADSL. Program: programs/t_demog.R
+\s\nTable 14.1.1 Demographic Characteristics
+Safety Population
+
+—————————————————————————————————————————————————
+                                     All Patients
+                                       (N=254)   
+—————————————————————————————————————————————————
+Age (years)                                      
+  n                                      254     
+  Mean (SD)                           75.1 (8.2) 
+  Median                                 77.0    
+  Min - Max                          51.0 - 89.0 
+Age group                                        
+  n                                      254     
+  <65                                  33 (13%)  
+  65-80                              144 (56.7%) 
+  >80                                 77 (30.3%) 
+Sex                                              
+  n                                      254     
+  F                                  143 (56.3%) 
+  M                                  111 (43.7%) 
+Race                                             
+  n                                      254     
+  AMERICAN INDIAN OR ALASKA NATIVE     1 (0.4%)  
+  BLACK OR AFRICAN AMERICAN           23 (9.1%)  
+  WHITE                              230 (90.6%) 
+—————————————————————————————————————————————————
+
+Source: ADSL. Program: programs/t_demog.R

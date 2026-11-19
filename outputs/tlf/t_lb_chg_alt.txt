@@ -1,0 +1,126 @@
+Table 14.3.4 Alanine Aminotransferase (U/L) - Value and Change from Baseline by Visit
+Safety Population
+
+——————————————————————————————————————————————————————————————————————————————————————————————
+                                Placebo                           Xanomeline Low Dose         
+                 Value at Visit   Change from Baseline   Value at Visit   Change from Baseline
+                     (N=86)              (N=86)              (N=96)              (N=96)       
+——————————————————————————————————————————————————————————————————————————————————————————————
+Analysis Visit                                                                                
+  Baseline                                                                                    
+    n                  86                  0                   96                  0          
+    Mean (SD)      17.5 (8.3)              NA              18.1 (8.3)              NA         
+    Median            15.0                 NA                 16.0                 NA         
+    Min - Max      7.0 - 55.0              NA              5.0 - 70.0              NA         
+  Week 2                                                                                      
+    n                  83                  83                  88                  88         
+    Mean (SD)     18.0 (12.5)          0.3 (7.8)          20.7 (10.4)          2.3 (7.3)      
+    Median            15.0                -1.0                19.0                2.0         
+    Min - Max     6.0 - 104.0         -14.0 - 54.0         5.0 - 88.0         -28.0 - 22.0    
+  Week 4                                                                                      
+    n                  79                  79                  72                  72         
+    Mean (SD)     18.7 (12.9)          0.8 (8.5)           17.5 (7.7)          -0.6 (4.4)     
+    Median            16.0                0.0                 16.0                0.0         
+    Min - Max     6.0 - 107.0         -13.0 - 57.0         5.0 - 62.0         -16.0 - 12.0    
+  Week 6                                                                                      
+    n                  73                  73                  62                  62         
+    Mean (SD)      17.0 (9.9)          -0.4 (7.2)          17.0 (8.0)          -1.1 (5.2)     
+    Median            15.0                -1.0                16.0                -1.0        
+    Min - Max      4.0 - 76.0         -15.0 - 46.0         5.0 - 57.0         -13.0 - 16.0    
+  Week 8                                                                                      
+    n                  72                  72                  60                  60         
+    Mean (SD)      16.7 (9.3)          -1.0 (5.3)          17.6 (7.9)          0.0 (5.9)      
+    Median            15.0                -1.0                17.0                0.0         
+    Min - Max      7.0 - 63.0         -17.0 - 14.0         4.0 - 54.0         -16.0 - 22.0    
+  Week 12                                                                                     
+    n                  67                  67                  51                  51         
+    Mean (SD)      18.0 (9.2)          0.2 (7.4)          18.5 (12.7)          0.4 (10.0)     
+    Median            16.0                0.0                 15.0                -1.0        
+    Min - Max      6.0 - 64.0         -21.0 - 34.0         9.0 - 88.0         -22.0 - 55.0    
+  Week 16                                                                                     
+    n                  68                  68                  42                  42         
+    Mean (SD)      17.1 (7.4)          -0.6 (6.8)          17.3 (7.5)          0.7 (5.8)      
+    Median            15.0                0.0                 16.0                -1.0        
+    Min - Max      5.0 - 48.0         -34.0 - 14.0         6.0 - 43.0         -7.0 - 28.0     
+  Week 20                                                                                     
+    n                  65                  65                  30                  30         
+    Mean (SD)      16.1 (6.6)          -1.8 (6.2)          16.7 (6.3)          1.1 (5.0)      
+    Median            14.0                -1.0                15.0                1.0         
+    Min - Max      7.0 - 48.0         -34.0 - 18.0         7.0 - 37.0         -6.0 - 15.0     
+  Week 24                                                                                     
+    n                  57                  57                  26                  26         
+    Mean (SD)     17.9 (15.6)         -0.1 (16.2)          18.2 (9.2)          1.8 (5.8)      
+    Median            14.0                -2.0                16.0                0.5         
+    Min - Max     5.0 - 124.0        -28.0 - 111.0         7.0 - 48.0         -7.0 - 15.0     
+  Week 26                                                                                     
+    n                  57                  57                  25                  25         
+    Mean (SD)      16.0 (6.0)          -1.8 (6.4)          17.8 (9.5)          1.6 (6.4)      
+    Median            15.0                -1.0                15.0                0.0         
+    Min - Max      3.0 - 31.0         -31.0 - 12.0         7.0 - 53.0         -8.0 - 20.0     
+——————————————————————————————————————————————————————————————————————————————————————————————
+
+Baseline = last non-missing value on or before first dose.
+Source: ADLB, ADSL. Program: programs/t_lb_chg_alt.R
+\s\nTable 14.3.4 Alanine Aminotransferase (U/L) - Value and Change from Baseline by Visit
+Safety Population
+
+——————————————————————————————————————————————————————
+                         Xanomeline High Dose         
+                 Value at Visit   Change from Baseline
+                     (N=72)              (N=72)       
+——————————————————————————————————————————————————————
+Analysis Visit                                        
+  Baseline                                            
+    n                  72                  0          
+    Mean (SD)     19.1 (10.1)              NA         
+    Median            16.0                 NA         
+    Min - Max      6.0 - 62.0              NA         
+  Week 2                                              
+    n                  70                  70         
+    Mean (SD)      21.2 (8.9)          2.2 (6.6)      
+    Median            19.0                2.0         
+    Min - Max      8.0 - 49.0         -31.0 - 17.0    
+  Week 4                                              
+    n                  72                  72         
+    Mean (SD)      21.3 (9.5)          2.2 (7.0)      
+    Median            20.0                1.0         
+    Min - Max      8.0 - 61.0         -28.0 - 21.0    
+  Week 6                                              
+    n                  66                  66         
+    Mean (SD)      21.2 (9.5)          1.7 (6.0)      
+    Median            19.0                2.0         
+    Min - Max     10.0 - 60.0         -19.0 - 15.0    
+  Week 8                                              
+    n                  56                  56         
+    Mean (SD)     22.8 (17.5)          3.3 (17.2)     
+    Median            18.0                1.0         
+    Min - Max     10.0 - 129.0       -29.0 - 119.0    
+  Week 12                                             
+    n                  50                  50         
+    Mean (SD)     21.0 (10.2)          0.9 (8.8)      
+    Median            19.0                1.0         
+    Min - Max      9.0 - 70.0         -38.0 - 20.0    
+  Week 16                                             
+    n                  37                  37         
+    Mean (SD)      19.6 (7.6)          -0.0 (7.2)     
+    Median            19.0                1.0         
+    Min - Max      7.0 - 38.0         -26.0 - 17.0    
+  Week 20                                             
+    n                  31                  31         
+    Mean (SD)      19.6 (6.8)          -0.3 (8.3)     
+    Median            19.0                1.0         
+    Min - Max      9.0 - 35.0         -26.0 - 13.0    
+  Week 24                                             
+    n                  30                  30         
+    Mean (SD)      21.0 (8.7)          0.3 (8.0)      
+    Median            18.5                0.0         
+    Min - Max      9.0 - 43.0         -24.0 - 15.0    
+  Week 26                                             
+    n                  27                  27         
+    Mean (SD)      18.9 (7.0)          -1.9 (6.7)     
+    Median            18.0                -1.0        
+    Min - Max      8.0 - 39.0         -22.0 - 8.0     
+——————————————————————————————————————————————————————
+
+Baseline = last non-missing value on or before first dose.
+Source: ADLB, ADSL. Program: programs/t_lb_chg_alt.R
