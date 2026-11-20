@@ -1,0 +1,66 @@
+---
+title: "Early-Phase Clinical Reporting: CDISCPILOT01"
+subtitle: "ADaM datasets, QC and safety outputs from public CDISC pilot data"
+author: "Sara Gharouni Saffar"
+date: today
+format:
+  html:
+    embed-resources: true
+    toc: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+library(dplyr)
+adsl <- readRDS("outputs/datasets/adsl.rds")
+adae <- readRDS("outputs/datasets/adae.rds")
+adlb <- readRDS("outputs/datasets/adlb.rds")
+```
+
+## Purpose
+
+This report summarises a spec-driven pipeline that derives ADSL, ADAE and ADLB
+from SDTM data of the public CDISC pilot study, validates them independently,
+and produces early-phase safety outputs. All data is public example data.
+
+## Populations
+
+```{r}
+adsl |>
+  count(`Population` = if_else(SAFFL == "Y", "Safety (dosed)", "Screen failure"),
+        `Actual treatment` = TRT01A) |>
+  knitr::kable()
+```
+
+## Demographics
+
+```{r}
+#| comment: ""
+cat(readLines("outputs/tlf/t_demog.txt"), sep = "\n")
+```
+
+## Treatment-emergent adverse events
+
+```{r}
+#| comment: ""
+cat(readLines("outputs/tlf/t_ae_soc_pt.txt"), sep = "\n")
+```
+
+## ALT: change from baseline
+
+```{r}
+#| comment: ""
+cat(readLines("outputs/tlf/t_lb_chg_alt.txt"), sep = "\n")
+```
+
+![ALT mean change from baseline by visit and arm](outputs/tlf/f_lb_alt_trajectory.png)
+
+## Quality control
+
+{{< include qc/qc_log.md >}}
+
+## Data issues
+
+{{< include specs/data_issues.md >}}
