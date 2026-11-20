@@ -29,6 +29,9 @@ and produces early-phase safety outputs. All data is public example data.
 
 ```{r}
 adsl |>
+  mutate(TRT01A = factor(coalesce(TRT01A, "Not treated"),
+                         levels = c("Placebo", "Xanomeline Low Dose",
+                                    "Xanomeline High Dose", "Not treated"))) |>
   count(`Population` = if_else(SAFFL == "Y", "Safety (dosed)", "Screen failure"),
         `Actual treatment` = TRT01A) |>
   knitr::kable()
